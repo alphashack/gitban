@@ -37,7 +37,7 @@ These can be put in a file called *.gitban.json* in your home directory for conv
         "repo" : "repository"
     }
     
-The options set in .gitban.json will be overridden by anything specified explicitly on the command line.
+The options set in *.gitban.json* will be overridden by anything specified explicitly on the command line.
 
 Note:  For better security you may wish to not use basic authentication but instead use OAuth.  To do this
 you must first create a an OAuth token with the following command line:
