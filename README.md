@@ -5,7 +5,7 @@ gitban
 
 ##Installation
 
-    npm install gitban
+    npm install gitban -g
   
 Next, create the following labels in your github project:
 
