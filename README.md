@@ -65,6 +65,9 @@ As you can see from this logic the system will enforce only one issue be worked 
 
 To close / complete issue just close the issue using github or the "fixes #" syntax in your commit comment.
 
+Gitban uses the labels above to differentiate states of issues.
+Gitban will add a small comment to the issue describing each state change for tracking.
+
 ##Examples
 
 (note: these examples assume you have set up a .gitban.json so that github params do not have to always be specified)
