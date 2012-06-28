@@ -41,7 +41,7 @@ The options set in .gitban.json will be overridden by anything specified explici
 
 ###Workflow
 
-The purpose of this tool is to provide a very simple workflow based loosely on the kanban style whereby all issues
+The purpose of this tool is to provide a very simple workflow based loosely on the [kanban board](http://en.wikipedia.org/wiki/Kanban_board) style whereby all issues
 are initially added to the system in a "backlog" / unassigned state.  Do this by just creating a new issue in github.
 
 Next, issues can be assigned to team members.  This puts the issue into a "ready" state and is can be done using the "take" command.
