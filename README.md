@@ -44,7 +44,7 @@ you must first create a an OAuth token with the following command line:
 
     curl -u '<your github login name>' -d '{"scopes":"repo","note":"gitban"}' https://api.github.com/authorizations
     
-This should return some JSON that looks like:
+You will be prompted to login then you should see some JSON that looks like:
 
     {
       "token": "<your new OAuth token>",
