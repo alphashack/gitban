@@ -18,6 +18,6 @@
 	},
 	"bin" :
 	{
-		"ssa" : "./bin/cli.js"
+		"gitban" : "./bin/cli.js"
 	}
 }
