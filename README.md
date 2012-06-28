@@ -39,6 +39,42 @@ These can be put in a file called .gitban.json in your home directory for conven
     
 The options set in .gitban.json will be overridden by anything specified explicitly on the command line.
 
+Note:  For better security you may wish to not use basic authentication but instead use OAuth.  To do this
+you must first create a an OAuth token with the following command line:
+
+    curl -u '<your github login name>' -d '{"scopes":"repo","note":"gitban"}' https://api.github.com/authorizations
+    
+This should return some JSON that looks like:
+
+    {
+      "token": "<your new OAuth token>",
+      "note": "gitban",
+      "note_url": null,
+      "scopes": [
+        "repo"
+      ],
+      "created_at": "2012-06-28T04:57:16Z",
+      "app": {
+        "url": "http://developer.github.com/v3/oauth/#oauth-authorizations-api",
+        "name": "gitban (API)"
+      },
+      "url": "https://api.github.com/authorizations/437559",
+      "id": 437559,
+      "updated_at": "2012-06-28T04:57:16Z"
+    }
+    
+Now just edit your .gitban.json file as follows:
+
+    {
+        "token" : "<your new token from above>",
+        "user" : "username",
+        "org" : "organization",
+        "repo" : "repository"
+    }
+    
+Done!  From this point forward you can manage (e.g. revoke) this token using the Organizations tab from within
+your github account settings.
+
 ###Workflow
 
 The purpose of this tool is to provide a very simple workflow based loosely on the [kanban board](http://en.wikipedia.org/wiki/Kanban_board) style whereby all issues
