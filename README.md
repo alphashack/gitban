@@ -28,7 +28,7 @@ For most actions you will need to specify:
 * organization
 * repository
 
-These can be put in a file called .gitban.json in your home directory for convenience. The format is:
+These can be put in a file called *.gitban.json* in your home directory for convenience. The format is:
 
     {
         "user" : "username",
@@ -63,7 +63,7 @@ This should return some JSON that looks like:
       "updated_at": "2012-06-28T04:57:16Z"
     }
     
-Now just edit your .gitban.json file as follows:
+Now just edit your *.gitban.json* file as follows:
 
     {
         "token" : "<your new token from above>",
