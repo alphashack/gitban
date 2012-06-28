@@ -72,7 +72,7 @@ Now just edit your *.gitban.json* file as follows:
         "repo" : "repository"
     }
     
-Done!  From this point forward you can manage (e.g. revoke) this token using the Organizations tab from within
+Done!  From this point forward you can manage (e.g. revoke) this token using the Applications tab from within
 your github account settings.
 
 ###Workflow
