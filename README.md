@@ -51,6 +51,7 @@ Next, issues can be assigned to team members.  This puts the issue into a "ready
 This will cause issue #47 to be assigned to you and set its state to ready.
 
 When commencing to work on an issue use the "action" command.
+(note that you action an issue without having to first take it)
 
     gitban action 47
     
