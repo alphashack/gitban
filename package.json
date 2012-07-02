@@ -1,11 +1,11 @@
 {
 	"name": "gitban",
-	"version" : "0.0.6",
+	"version" : "0.0.7",
 	"description": "Very simple command line kanban-esque tool for use with github issues",
 	"author": "Pete Diemert <pete_diemert@msn.com>",
 	"dependencies": {
 		"github": "git+ssh://git@github.com:alphashack/node-github",
-		"commander" : ">= 0.5.2"
+		"commander" : ">= 0.6.0"
 	},
 	"engine": "node >= 0.4.12",
 	"main" : "./lib/index.js",
