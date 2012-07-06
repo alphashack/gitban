@@ -1,6 +1,6 @@
 {
 	"name": "gitban",
-	"version" : "0.0.7",
+	"version" : "0.0.8",
 	"description": "Very simple command line kanban-esque tool for use with github issues",
 	"author": "Pete Diemert <pete_diemert@msn.com>",
 	"dependencies": {
