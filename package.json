@@ -13,7 +13,7 @@
 	"repository" :
 	{
 		"type" : "git",
-		"url" : "https://git@github.com:alphashack/gitban.git"
+		"url" : "git@github.com:alphashack/gitban.git"
 
 	},
 	"bin" :
