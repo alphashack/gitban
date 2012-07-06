@@ -1,6 +1,6 @@
 {
 	"name": "gitban",
-	"version" : "0.0.8",
+	"version" : "0.0.9",
 	"description": "Very simple command line kanban-esque tool for use with github issues",
 	"author": "Pete Diemert <pete_diemert@msn.com>",
 	"dependencies": {
@@ -13,7 +13,7 @@
 	"repository" :
 	{
 		"type" : "git",
-		"url" : "git@github.com:alphashack/gitban.git"
+		"url" : "https://git@github.com:alphashack/gitban.git"
 
 	},
 	"bin" :
