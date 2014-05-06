@@ -10,6 +10,6 @@
         return;
     }
 
-    require('../lib');
+	require('../lib');
 })();
 
